@@ -9,6 +9,9 @@ RUN apk add -U \
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
+# https://bugs.alpinelinux.org/issues/6380
+RUN mkdir -p /run/nginx
+
 ENV POWERED_BY Deis
 
 COPY rootfs /
