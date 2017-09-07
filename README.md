@@ -2,12 +2,12 @@
 
 This guide will walk you through deploying a trivial
 [Dockerfile](https://docs.docker.com/reference/builder/) HTTP application
-on [Deis](https://github.com/deis/deis).
+on [Deis](https://github.com/deisthree/deis).
 
 ## Usage
 
 ```console
-$ git clone https://github.com/deis/example-dockerfile-http.git
+$ git clone https://github.com/deisthree/example-dockerfile-http.git
 $ cd example-dockerfile-http
 $ deis create
 Creating Application... done, created upbeat-dragster
@@ -102,6 +102,6 @@ Powered by Engine Yard
 ## Additional Resources
 
 * [Get Deis](http://deis.io/get-deis/)
-* [GitHub Project](https://github.com/deis/deis)
+* [GitHub Project](https://github.com/deisthree/deis)
 * [Documentation](http://docs.deis.io/)
 * [Blog](http://deis.io/blog/)
