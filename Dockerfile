@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.12
 
 RUN apk add -U \
 	bash \
@@ -12,7 +12,7 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 # https://bugs.alpinelinux.org/issues/6380
 RUN mkdir -p /run/nginx
 
-ENV POWERED_BY Deis
+ENV POWERED_BY Hephy
 
 COPY rootfs /
 
